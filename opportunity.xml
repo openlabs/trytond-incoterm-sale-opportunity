@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="opportunity_form1">
+            <field name="model">sale.opportunity</field>
+            <field name="inherit" ref="sale_opportunity.opportunity_view_form"/>
+            <field name="name">opportunity_form</field>
+        </record>
+        <record model="ir.ui.view" id="sale_opportunity_incoterm_view_form">
+            <field name="model">sale.opportunity.incoterm</field>
+            <field name="type">form</field>
+            <field name="name">opportunity_incoterm_form</field>
+        </record>
+        <record model="ir.ui.view" id="sale_opportunity_incoterm_view_tree">
+            <field name="model">sale.opportunity.incoterm</field>
+            <field name="type">tree</field>
+            <field name="name">opportunity_incoterm_tree</field>
+        </record>
+    </data>
+</tryton>
