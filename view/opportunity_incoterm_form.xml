@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<form string="Incoterm Sale Opportunity">
+    <label name="abbrevation"/>
+    <field name="abbrevation"/>
+    <label name="year"/>
+    <field name="year"/>
+    <label name="value"/>
+    <field name="value"/>
+    <label name="currency"/>
+    <field name="currency"/>
+    <label name="city"/>
+    <field name="city"/>
+</form>
